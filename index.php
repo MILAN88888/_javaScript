@@ -17,7 +17,7 @@
          <input id="val" type="text" >
          <input type=button id="btn" value=submit onclick="errFunction()">
          <p id="demo2" ></p>
-         
+         <a href="second.php">click here to go second page</a>
         
     </body>
     </html>
