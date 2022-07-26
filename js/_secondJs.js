@@ -21,3 +21,30 @@ function animateFunction()
         }
     }
 }
+function myCookies()
+{
+  
+   let x= navigator.cookieEnabled  ? "cookies is enabled" : "cookies isnot enabled";
+   document.getElementById('cook').innerHTML=x;
+    
+}
+function UpperCase()
+{
+const x= document.getElementById('fname');
+x.value=x.value.toUpperCase();
+
+      
+        
+}
+function mouseOver()
+{
+   document.getElementById('mouseover').innerHTML="This is  on over";
+// obj.style.backgroundColor="green";
+
+
+}
+function outOver()
+{
+    document.getElementById('mouseover').innerHTML="This is  on out";
+    // obj.style.backgroundColor="yellow";
+}

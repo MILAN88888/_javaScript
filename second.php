@@ -8,10 +8,20 @@
     <script src="js/_secondJs.js"></script>
     <link href="css/second.css" type="text/css" rel="stylesheet">
 </head>
-<body>
+<body onload="myCookies()">
     <button id="demo" onclick="animateFunction()">Let see the change</button>
     <div id="container">
         <div id="animate"></div>
     </div>
+
+    <h1>cookies session</h1>
+    <p id="cook"></p>
+    <h1>onchanged</h1>
+    <input type="text" id="fname" onchange="UpperCase()">
+    <h1>mouseover and mouseout</h1>
+    <div id="mouseover"  onmouseover="mouseOver()" onmouseout="outOver()">
+    
+    </div>
+    
 </body>
 </html>
