@@ -23,5 +23,34 @@
     
     </div>
     
+    <h1> event Handler</h1>
+         Please Enter your name :
+         <input type="text" id="ab"  >
+         <p id="eventinput"></p>
+
+         
+         <button>click</button>
+
+         <script>
+            
+            const y= document.getElementById('ab');
+y.addEventListener("click",function a() {
+    y.style.backgroundColor="yellow";
+}
+
+);
+y.addEventListener("focusout",
+()=>{
+    y.value=y.value.toUpperCase();
+
+});
+y.addEventListener("input",function a()
+{
+    document.getElementById('eventinput').innerHTML="Your are typing :- "+y.value;
+});
+
+
+
+         </script>
 </body>
 </html>

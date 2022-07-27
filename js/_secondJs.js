@@ -48,3 +48,9 @@ function outOver()
     document.getElementById('mouseover').innerHTML="This is  on out";
     // obj.style.backgroundColor="yellow";
 }
+
+
+// const btn=document.querySelectorAll('button');
+// btn.addEventListener('click',()=>{
+//     document.body.style.backgroundColor="yellow";
+// });
