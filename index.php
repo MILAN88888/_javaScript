@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <script type="text/javascript" src="js/_fisrtJs.js"></script>
+        
     </head>
     <body>
         <p id="demo"></p>
@@ -18,6 +18,7 @@
          <input type=button id="btn" value=submit onclick="errFunction()">
          <p id="demo2" ></p>
          <a href="second.php">click here to go second page</a>
-
+         
+         <script type="text/javascript" src="js/_fisrtJs.js"></script>
     </body>
     </html>

@@ -46,11 +46,22 @@ function mouseOver()
 function outOver()
 {
     document.getElementById('mouseover').innerHTML="This is  on out";
-    // obj.style.backgroundColor="yellow";
 }
+const y= document.getElementById('ab');
+y.addEventListener("click",function a() 
+                    {
+                        y.style.backgroundColor="yellow";
+                    }
+);
+y.addEventListener("change",()=>
+                    {
+                        y.value=y.value.toUpperCase();
 
+                    }
+);
+y.addEventListener("input",function a()
+                    {
+                        document.getElementById('eventinput').innerHTML="Your are typing :- "+y.value.toUpperCase();
+                    }
+);
 
-// const btn=document.querySelectorAll('button');
-// btn.addEventListener('click',()=>{
-//     document.body.style.backgroundColor="yellow";
-// });
